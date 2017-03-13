@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jungle68.drawablesizetextview.MainActivity">
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:drawableHeight="16dp"
+        app:drawableWidth="16dp"/>
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:drawableHeight="32dp"
+        app:drawableWidth="32dp"/>
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:drawableRight="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:drawableHeight="16dp"
+        app:drawableWidth="16dp"/>
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableBottom="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="Hello World!"
+        app:drawableHeight="32dp"
+        app:drawableWidth="32dp"/>
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:id="@+id/dtv_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="net work image"
+        app:drawableHeight="64dp"
+        app:drawableWidth="64dp"/>
+
+    <com.jungle68.library.DrawableSizeTextView
+        android:id="@+id/dtv_net2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:text="net work image"
+        app:drawableHeight="64dp"
+        app:drawableWidth="64dp"/>
+
+</LinearLayout>
